@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>frost.roadmap</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/roadmap.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded"/>
+    <style>
+        #particles-js {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background-color: var(--md-sys-color-background);
+        }
+    </style>
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="container">
+
+        <!-- Header Section -->
+        <div style="text-align: center;">
+            <span class="material-symbols-rounded" style="font-size: 3.5rem; color: var(--md-sys-color-primary)">timeline</span>
+            <h1 class="md-text-headline" style="font-size: 2.5rem; font-weight: 600; color: var(--md-sys-color-primary)">frost.roadmap</h1>
+        </div>
+
+        <!-- Section Header: Roadmap Timeline -->
+        <h2 class="md-title-large" style="margin-top: var(--md-spacing-4);">Development Phases</h2>
+        
+        <div class="timeline-container">
+            <!-- Phase 1 -->
+            <div class="timeline-item completed">
+                <div class="md-card md-card-elevated">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span class="md-title-medium">Phase 1: Foundation</span>
+                        <span class="md-badge" style="background-color: var(--md-sys-color-primary); color: var(--md-sys-color-on-primary);">Done</span>
+                    </div>
+                    <p class="md-body-medium">Core UI setup, Material 3 design tokens integration, and particles.js canvas background.</p>
+                </div>
+            </div>
+
+            <!-- Phase 2 -->
+            <div class="timeline-item in-progress">
+                <div class="md-card md-card-elevated">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span class="md-title-medium">Phase 2: Identity & Messaging</span>
+                        <span class="md-badge" style="background-color: var(--md-sys-color-secondary-container); color: var(--md-sys-color-on-secondary-container); min-width: auto; padding: 0 8px; border-radius: var(--md-sys-shape-full);">In Progress</span>
+                    </div>
+                    <p class="md-body-medium">Implementing the Account System alongside public chatrooms and direct messaging (DMs).</p>
+                </div>
+            </div>
+
+            <!-- Phase 3 -->
+            <div class="timeline-item">
+                <div class="md-card md-card-outlined">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span class="md-title-medium">Phase 3: Media & Entertainment</span>
+                        <span class="md-badge" style="background-color: var(--md-sys-color-surface-variant); color: var(--md-sys-color-on-surface-variant); min-width: auto; padding: 0 8px; border-radius: var(--md-sys-shape-full);">Planned</span>
+                    </div>
+                    <p class="md-body-medium">Deploying the video/picture gallery (only canary's uploads) and interactive browser games.</p>
+                </div>
+            </div>
+
+            <!-- Phase 4 -->
+            <div class="timeline-item">
+                <div class="md-card md-card-outlined">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span class="md-title-medium">Phase 4: Communication</span>
+                        <span class="md-badge" style="background-color: var(--md-sys-color-surface-variant); color: var(--md-sys-color-on-surface-variant); min-width: auto; padding: 0 8px; border-radius: var(--md-sys-shape-full);">Planned</span>
+                    </div>
+                    <p class="md-body-medium">Integrating peer-to-peer or server-backed audio and video calling features.</p>
+                </div>
+            </div>
+
+             <!-- Phase 5 -->
+            <div class="timeline-item">
+                <div class="md-card md-card-outlined">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span class="md-title-medium">Phase 5: Personalization</span>
+                        <span class="md-badge" style="background-color: var(--md-sys-color-surface-variant); color: var(--md-sys-color-on-surface-variant); min-width: auto; padding: 0 8px; border-radius: var(--md-sys-shape-full);">Planned</span>
+                    </div>
+                    <p class="md-body-medium">Add more customization to the website, such as selectable color palettes and custom backgrounds.</p>
+                </div>
+            </div>
+
+             <!-- Phase 6 -->
+            <div class="timeline-item">
+                <div class="md-card md-card-outlined">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4px;">
+                        <span class="md-title-medium">Phase 6: Polishing</span>
+                        <span class="md-badge" style="background-color: var(--md-sys-color-surface-variant); color: var(--md-sys-color-on-surface-variant); min-width: auto; padding: 0 8px; border-radius: var(--md-sys-shape-full);">Planned</span>
+                    </div>
+                    <p class="md-body-medium">Finish up frost.web and add QOL features.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Section Header: Detailed Feature Board -->
+        <h2 class="md-title-large" style="margin-top: var(--md-spacing-6);">Feature Modules</h2>
+        
+        <div class="md-list">
+            <div class="md-list-item">
+                <div class="md-list-item-leading">
+                    <span class="material-symbols-rounded md-primary">manage_accounts</span>
+                </div>
+                <div class="md-list-item-content">
+                    <h3 class="md-list-item-title">Account System</h3>
+                    <p class="md-list-item-supporting">Secure user registration, authentication, and profile management.</p>
+                </div>
+            </div>
+            <hr class="md-divider md-divider-inset">
+            <div class="md-list-item">
+                <div class="md-list-item-leading">
+                    <span class="material-symbols-rounded md-primary">forum</span>
+                </div>
+                <div class="md-list-item-content">
+                    <h3 class="md-list-item-title">Chatroom (Public & DMs)</h3>
+                    <p class="md-list-item-supporting">Real-time messaging channels for community discussions and private chats.</p>
+                </div>
+            </div>
+            <hr class="md-divider md-divider-inset">
+            <div class="md-list-item">
+                <div class="md-list-item-leading">
+                    <span class="material-symbols-rounded md-primary">video_call</span>
+                </div>
+                <div class="md-list-item-content">
+                    <h3 class="md-list-item-title">Audio & Video Calling</h3>
+                    <p class="md-list-item-supporting">Direct voice and video communication channels between users.</p>
+                </div>
+            </div>
+            <hr class="md-divider md-divider-inset">
+            <div class="md-list-item">
+                <div class="md-list-item-leading">
+                    <span class="material-symbols-rounded md-primary">perm_media</span>
+                </div>
+                <div class="md-list-item-content">
+                    <h3 class="md-list-item-title">Video & Picture Gallery</h3>
+                    <p class="md-list-item-supporting">Hosted media uploaded by canary</p>
+                </div>
+            </div>
+            <hr class="md-divider md-divider-inset">
+            <div class="md-list-item">
+                <div class="md-list-item-leading">
+                    <span class="material-symbols-rounded md-primary">sports_esports</span>
+                </div>
+                <div class="md-list-item-content">
+                    <h3 class="md-list-item-title">Interactive Games</h3>
+                    <p class="md-list-item-supporting">Lightweight browser-based mini-games built directly into the app.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Particles.js CDN -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+        <script>
+        particlesJS("particles-js", {
+          "particles": {
+            "number": {
+              "value": 133,
+              "density": {
+                "enable": true,
+                "value_area": 800
+              }
+            },
+            "color": {
+              "value": "#246488"
+            },
+            "shape": {
+              "type": "circle",
+              "stroke": {
+                "width": 0,
+                "color": "#000000"
+              },
+              "polygon": {
+                "nb_sides": 5
+              },
+              "image": {
+                "src": "img/github.svg",
+                "width": 100,
+                "height": 100
+              }
+            },
+            "opacity": {
+              "value": 0.5,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 1,
+                "opacity_min": 0.1,
+                "sync": false
+              }
+            },
+            "size": {
+              "value": 10,
+              "random": true,
+              "anim": {
+                "enable": false,
+                "speed": 40,
+                "size_min": 0.1,
+                "sync": false
+              }
+            },
+            "line_linked": {
+              "enable": false,
+              "distance": 500,
+              "color": "#ffffff",
+              "opacity": 0.4,
+              "width": 2
+            },
+            "move": {
+              "enable": true,
+              "speed": 6,
+              "direction": "bottom",
+              "random": false,
+              "straight": false,
+              "out_mode": "out",
+              "bounce": false,
+              "attract": {
+                "enable": false,
+                "rotateX": 600,
+                "rotateY": 1200
+              }
+            }
+          },
+          "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+              "onhover": {
+                "enable": true,
+                "mode": "bubble"
+              },
+              "onclick": {
+                "enable": true,
+                "mode": "repulse"
+              },
+              "resize": true
+            },
+            "modes": {
+              "grab": {
+                "distance": 400,
+                "line_linked": {
+                  "opacity": 0.5
+                }
+              },
+              "bubble": {
+                "distance": 400,
+                "size": 4,
+                "duration": 0.3,
+                "opacity": 1,
+                "speed": 3
+              },
+              "repulse": {
+                "distance": 200,
+                "duration": 0.4
+              },
+              "push": {
+                "particles_nb": 4
+              },
+              "remove": {
+                "particles_nb": 2
+              }
+            }
+          },
+          "retina_detect": true
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+{
+    "games": {
+        "location": "games.html",
+        "symbol": "videogame_asset"
+    },
+
+    "chat": {
+        "location": "chat.html",
+        "symbol": "chat"
+    },
+
+    "call": {
+        "location": "call.html",
+        "symbol": "phone_in_talk"
+    },
+
+    "gallery": {
+        "location": "gallery.html",
+        "symbol": "photo_library"
+    },
+
+    "policy": {
+        "location": "policy.html",
+        "symbol": "rule"
+    },
+
+    "settings": {
+        "location": "settings.html",
+        "symbol": "settings"
+    },
+
+    "roadmap": {
+        "location": "devroadmap.html",
+        "symbol": "timeline"
+    }
+}

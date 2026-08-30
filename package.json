@@ -1,0 +1,24 @@
+{
+  "name": "frost.web",
+  "version": "1.0.0",
+  "description": "Succecssor to baguette.site! Unblocker site with calls, games, chating, and more!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/canary1225/frost.web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/canary1225/frost.web/issues"
+  },
+  "homepage": "https://github.com/canary1225/frost.web#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
